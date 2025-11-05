@@ -1,14 +1,14 @@
 <!--Unit 4 Project
 Requirements
-[ ] Three Distinct CSS font-family Declarations
-[ ] One Google Font or Uploaded Font
+[y] Three Distinct CSS font-family Declarations
+[y] One Google Font or Uploaded Font
 [y] An Unordered **or** Ordered List (<ul> or <ol>)
 [y] Three Images
 
 Select ONE Additional Feature to Add  
 [ no ] Feature 1 - Include :hover Effect 
-[ no ] Feature 2 - Change the <li> markers
-[ no ] Feature 3 - Change the Favicon
+[ y ] Feature 2 - Change the <li> markers
+[ y  ] Feature 3 - Change the Favicon
 [ no ] Feature 4 - Include Hand Drawn Border
 [ no ] Feature 5 - Use background-blend-mode: overlay
 -->
@@ -19,16 +19,29 @@ Select ONE Additional Feature to Add
 <head>
   <title>Unit 4 Project</title>
   <meta charset="utf-8">
+  <link rel="icon" type=""image/x-icon" href="data:image/jpeg;base64,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"
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barriecito&family=Italianno&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Rouge+Script&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
   <style>
     h1{
+        font-family: "Rock Salt", cursive;
       text-align: center;
       font-size:100px;
+      color:#c9356c;
     }
 h2{
   text-align:center;
+  font-family: "Rouge Script", cursive;
+  font-size: 60px;
+  color:#c9356c;
 }
 img{
-  
+  border: 10px solid #f48db4;
+      border-radius: 30px;
 }
 body{
       background-image:url(https://m.media-amazon.com/images/I/51HsCThHBhL._AC_UF1000,1000_QL80_.jpg);
@@ -36,8 +49,28 @@ body{
       background-repeat:no-repeat ;
       background-attachment:fixed;
  }
+ li::marker{
+content:"❤";
+font-size:.6em;
+color:#f48db4;
+ }
+ #humanity{
+font-family: "Rouge Script", cursive;
+font-size: 30px;
+color:#c9356c;
+ }
  #tellmewhy{
   font-size: 30px;
+  font-family: "Rouge Script", cursive;
+  color:#c9356c;
+ }
+ #geneticallymodifiedmos{
+  font-family: "Rock Salt", cursive;
+  color:black;
+ }
+ #solutionexe{
+   font-family: "Rock Salt", cursive;
+   font-size:40px;
  }
   </style>
 </head>
@@ -59,15 +92,18 @@ body{
 witdh="400">
   <p><strong id="tellmewhy">They are pollinators! And can cause a disruption in the ecosystem as they are food for fishes and birds!!</strong></p>
 </center>
-  <h2>Heres my solution!</h2>
-<strong id="geneticallymodifiedmos"><ul>
-  <li>One. we wipe them off planet Earth except like six male Mosquito (because they don't suck blood) </li>
-  <li>Two. we take those mosquitos and subject it to questionable lab testing</li>
-<li>Three. we somehow make male mosquitos reproduce asexually</li>
-<li> Four. re-release genetically modified mosquitos(renamed Empress mosquites the 3rd, like as the species name</li>
-<li> Five. world peace</li></strong>
+
+ <h2><strong id="solutionexe">Heres my solution!</strong></h2>
+  <strong id="geneticallymodifiedmos">
+    <ul>
+  <li>One. We wipe them all off planet Earth except like six male Mosquito (because they don't suck blood) </li>
+  <li>Two. We take those mosquitos and subject it to questionable lab testing</li>
+<li>Three. We somehow make male mosquitos reproduce asexually</li>
+<li> Four. Re-release genetically modified mosquitos(renamed Darius, like as the species name)</li>
+<li> Five. WORLD PEACE</li></strong>
 </ul>
 <center><img src="https://media.tenor.com/DtD4LZbctTIAAAAe/tamm-cat.png"
 width="400"></center>
+
 </body>
 </html>
